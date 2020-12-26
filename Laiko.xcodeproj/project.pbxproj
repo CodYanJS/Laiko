@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593B585825975C8200AEC1A2 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B585725975C8200AEC1A2 /* LogoView.swift */; };
 		598DDE3D2597395E007335F5 /* LaikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE3C2597395E007335F5 /* LaikoApp.swift */; };
 		598DDE3F2597395E007335F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE3E2597395E007335F5 /* ContentView.swift */; };
 		598DDE412597395F007335F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598DDE402597395F007335F5 /* Assets.xcassets */; };
 		598DDE442597395F007335F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598DDE432597395F007335F5 /* Preview Assets.xcassets */; };
 		598DDE4F25973960007335F5 /* LaikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE4E25973960007335F5 /* LaikoTests.swift */; };
 		598DDE5A25973960007335F5 /* LaikoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE5925973960007335F5 /* LaikoUITests.swift */; };
+		59A3AF4925974C3F002A0BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A3AF4825974C3F002A0BC4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		593B585725975C8200AEC1A2 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		598DDE392597395E007335F5 /* Laiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		598DDE3C2597395E007335F5 /* LaikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaikoApp.swift; sourceTree = "<group>"; };
 		598DDE3E2597395E007335F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		598DDE5525973960007335F5 /* LaikoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaikoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		598DDE5925973960007335F5 /* LaikoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaikoUITests.swift; sourceTree = "<group>"; };
 		598DDE5B25973960007335F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A3AF4825974C3F002A0BC4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		593B58482597598300AEC1A2 /* ForAdd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForAdd;
+			sourceTree = "<group>";
+		};
 		598DDE302597395E007335F5 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +106,14 @@
 		598DDE3B2597395E007335F5 /* Laiko */ = {
 			isa = PBXGroup;
 			children = (
+				593B58482597598300AEC1A2 /* ForAdd */,
 				598DDE3C2597395E007335F5 /* LaikoApp.swift */,
 				598DDE3E2597395E007335F5 /* ContentView.swift */,
 				598DDE402597395F007335F5 /* Assets.xcassets */,
 				598DDE452597395F007335F5 /* Info.plist */,
 				598DDE422597395F007335F5 /* Preview Content */,
+				59A3AF4825974C3F002A0BC4 /* Main.storyboard */,
+				593B585725975C8200AEC1A2 /* LogoView.swift */,
 			);
 			path = Laiko;
 			sourceTree = "<group>";
@@ -234,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A3AF4925974C3F002A0BC4 /* Main.storyboard in Resources */,
 				598DDE442597395F007335F5 /* Preview Assets.xcassets in Resources */,
 				598DDE412597395F007335F5 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				598DDE3F2597395E007335F5 /* ContentView.swift in Sources */,
+				593B585825975C8200AEC1A2 /* LogoView.swift in Sources */,
 				598DDE3D2597395E007335F5 /* LaikoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

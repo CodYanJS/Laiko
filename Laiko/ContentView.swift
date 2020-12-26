@@ -9,13 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("It's work !, Developer release 0.0.1")
-            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            .multilineTextAlignment(.center)
-            .lineLimit(3)
-            .padding(/*@START_MENU_TOKEN@*/.all, 5.0/*@END_MENU_TOKEN@*/)
-            .frame(width: 400, height: 110)
-
+        VStack {
+            LogoView()
+                .padding(.horizontal, -150)
+            VStack (alignment: .trailing){
+            
+            Text("It's work !")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            HStack {
+                Text("Developer release")
+                    .font(.subheadline)
+                Text("0.0.1-A")
+                    .font(.subheadline)
+            }
+        }
+            .padding()
+            .frame(width: nil)
+            Spacer()
+        }
     }
 }
 
