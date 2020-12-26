@@ -14,7 +14,6 @@
 		598DDE442597395F007335F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598DDE432597395F007335F5 /* Preview Assets.xcassets */; };
 		598DDE4F25973960007335F5 /* LaikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE4E25973960007335F5 /* LaikoTests.swift */; };
 		598DDE5A25973960007335F5 /* LaikoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DDE5925973960007335F5 /* LaikoUITests.swift */; };
-		59A3AF4925974C3F002A0BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A3AF4825974C3F002A0BC4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		598DDE5525973960007335F5 /* LaikoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaikoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		598DDE5925973960007335F5 /* LaikoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaikoUITests.swift; sourceTree = "<group>"; };
 		598DDE5B25973960007335F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59A3AF4825974C3F002A0BC4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				598DDE402597395F007335F5 /* Assets.xcassets */,
 				598DDE452597395F007335F5 /* Info.plist */,
 				598DDE422597395F007335F5 /* Preview Content */,
-				59A3AF4825974C3F002A0BC4 /* Main.storyboard */,
 				593B585725975C8200AEC1A2 /* LogoView.swift */,
 			);
 			path = Laiko;
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A3AF4925974C3F002A0BC4 /* Main.storyboard in Resources */,
 				598DDE442597395F007335F5 /* Preview Assets.xcassets in Resources */,
 				598DDE412597395F007335F5 /* Assets.xcassets in Resources */,
 			);

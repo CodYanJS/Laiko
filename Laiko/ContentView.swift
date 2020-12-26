@@ -18,18 +18,43 @@ struct ContentView: View {
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .padding(.vertical, -100)
             HStack {
-                Text("Developer release")
+                Text("Developer release:")
                     .font(.subheadline)
                     .padding(.vertical, -75)
-                Text("0.0.1-A")
+                Text("0.0.1-B")
                     .font(.subheadline)
                     .padding(.vertical, -75)
             }
+                HStack {
+                    Text("Build: 00A02A")
+                        .font(.subheadline)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(nil)
+                        .padding(.vertical, -50)
+                }
         }
+            Spacer()
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Text("Enter")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.black)
+                    .foregroundColor(.black)
+            })
+            .frame(width: 450, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .background(Color.white)
+            
+            
+            
+        
             .padding()
             .frame(width: nil)
             Spacer()
+            Text("© Copyright CodEarth 2021")
+                .font(.subheadline)
+                .padding(.vertical, -10)
+        
         }
+        .frame(width: nil)
     }
 }
 
