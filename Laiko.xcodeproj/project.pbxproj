@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -194,6 +194,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = CodEarth;
 				TargetAttributes = {
 					598DDE382597395E007335F5 = {
 						CreatedOnToolsVersion = 12.3;
@@ -209,7 +210,7 @@
 				};
 			};
 			buildConfigurationList = 598DDE342597395E007335F5 /* Build configuration list for PBXProject "Laiko" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

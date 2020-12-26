@@ -14,7 +14,7 @@ struct ContentView: View {
             .multilineTextAlignment(.center)
             .lineLimit(3)
             .padding(/*@START_MENU_TOKEN@*/.all, 5.0/*@END_MENU_TOKEN@*/)
-            .frame(width: nil)
+            .frame(width: 400, height: 110)
 
     }
 }
